@@ -4,20 +4,18 @@ packaging_format = 2
 
 id = "tex2quiz"
 name = "Tex2quiz"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "Automatically create a quiz from a simple text file"
+description.fr = "Créer automatiquement un quiz à partir d'un simple fichier texte"
 
 version = "0.0.1~ynh1"
 
 maintainers = ["eric_G"]
 
 [upstream]
-license = "free"
+license = "GPL-3.0-or-later"
 website = "https://text2quiz.vercel.app/"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+demo = "https://text2quiz.vercel.app/"
+code = "https://github.com/eyssette/text2quiz"
 
 [integration]
 yunohost = ">= 11.2"
