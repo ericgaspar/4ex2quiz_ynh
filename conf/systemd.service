@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__YNH_NPM__ run dev -- --open
+ExecStart=__YNH_NPM__ run dev -- --open --host
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these
