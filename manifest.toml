@@ -49,8 +49,7 @@ ram.runtime = "50M"
         sha256 = "eeef9e0b61a47567d172cb332ace32d8b10b89bb1da3507675e324a95b5306b9"
     
     [resources.ports]
-    main.default = 3000
-    
+
     [resources.system_user]
 
     [resources.install_dir]
